@@ -1,55 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-</head>
-<body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        color: #2c3e50;
+        padding: 40px;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        background: #ffffff;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+      }
+
+      h1 {
+        font-size: 36px;
+        color: #1a237e;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-size: 24px;
+        color: #3949ab;
+        margin-top: 30px;
+        border-bottom: 2px solid #c5cae9;
+        padding-bottom: 5px;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-top: 30px;
+        color: #5c6bc0;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      hr {
+        border: none;
+        height: 2px;
+        background-color: #7986cb;
+        margin: 20px 0;
+      }
+
+      ol,
+      ul {
+        padding-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #1e88e5;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .contact-info li {
+        list-style: none;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px;
+        }
+
+        .container {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        h2 {
+          font-size: 20px;
+        }
+
+        p,
+        li {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <h1>ARIB NAWAZ</h1>
-    <H2>WEB Developer</H2>
-    <hr>
+    <h2>WEB Developer</h2>
+    <hr />
     <h2>Summary</h2>
-    <p>Final-year B.Tech CSE student with a solid foundation in full-stack development, cloud computing, and AI. Proficient in
-React.js, Next.js, HTML, CSS, JavaScript, and Python, with hands-on experience in prompt engineering, LangChain, and
-vector databases. Led the development of “Algo Stocks Prediction Engine,” a cloud-based stock forecasting app with
-JWT authentication, MongoDB, ML integration, and AWS serverless deployment. Familiar with Firebase, Node.js and
-PostgreSQL for backend development and data modeling.</p>
-<h2>Education</h2>
-<ol>
-    <li>KIIT UNIVERSITY,7.0 CGPA-2022-2026</li>
-    <li>DPS KALINGA,81.6%-2021-2022</li>
-    <li>DPS KALINGA,78%-2019-2020</li>
-</ol>
-<h2>Work Experience</h2>
-<ul>
-    <li>Web Developer Intern-Pinnacle Labs(January-May'25)</li>
-    
-</ul>
-<h2>TECHNICAL SKILLS</h2>
-<ul>
-    <li>Development:  React.js,  Next.js,  Node.js,  Express.js, Golang, HTML,  CSS</li>
-    <li>Cloud &DevOps: AWS(EC2,Lambda), Docker</li>
-    <li>Tools: Git, GitHub, GitHub Copilot, VS Code</li>
-    <li>Databases: MongoDB, PostgreSQL,NoSQL</li>
-    <li>AI/ML &Frameworks: Pandas, NumPy, TensorFlow, LangChain</li>
-
-</ul>
-<h2>Certifications</h2>
-<ul>
-    <li>AICTE Virtual Internship(Full Stack Python)</li>
-    <li>Business Analytics for Decision Making</li>
-    <li>AWS Academy Cloud Operations</li>
-</ul>
-<h3>CONTACTS</h3>
-<ul>
-    <li><a href="https://www.linkedin.com/in/arib-nawaz-85b478248/**">LinkedIN</a></li>
-    <li><a href="nawazarib@gmail.com">Email</a></li>
-    <li>Number-9114371149</li>
-</ul>
-
-
-
-    
-</body>
+    <p>
+      Final-year B.Tech CSE student with a solid foundation in full-stack
+      development, cloud computing, and AI. Proficient in React.js, Next.js,
+      HTML, CSS, JavaScript, and Python, with hands-on experience in prompt
+      engineering, LangChain, and vector databases. Led the development of “Algo
+      Stocks Prediction Engine,” a cloud-based stock forecasting app with JWT
+      authentication, MongoDB, ML integration, and AWS serverless deployment.
+      Familiar with Firebase, Node.js and PostgreSQL for backend development and
+      data modeling.
+    </p>
+    <h2>Education</h2>
+    <ol>
+      <li>KIIT UNIVERSITY,7.0 CGPA-2022-2026</li>
+      <li>DPS KALINGA,81.6%-2021-2022</li>
+      <li>DPS KALINGA,78%-2019-2020</li>
+    </ol>
+    <h2>Work Experience</h2>
+    <ul>
+      <li>Web Developer Intern-Pinnacle Labs(January-May'25)</li>
+    </ul>
+    <h2>TECHNICAL SKILLS</h2>
+    <ul>
+      <li>
+        Development: React.js, Next.js, Node.js, Express.js, Golang, HTML, CSS
+      </li>
+      <li>Cloud &DevOps: AWS(EC2,Lambda), Docker</li>
+      <li>Tools: Git, GitHub, GitHub Copilot, VS Code</li>
+      <li>Databases: MongoDB, PostgreSQL,NoSQL</li>
+      <li>AI/ML &Frameworks: Pandas, NumPy, TensorFlow, LangChain</li>
+    </ul>
+    <h2>Certifications</h2>
+    <ul>
+      <li>AICTE Virtual Internship(Full Stack Python)</li>
+      <li>Business Analytics for Decision Making</li>
+      <li>AWS Academy Cloud Operations</li>
+    </ul>
+    <h3>CONTACTS</h3>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/arib-nawaz-85b478248/**"
+          >LinkedIN</a
+        >
+      </li>
+      <li><a href="nawazarib@gmail.com">Email</a></li>
+      <li>Number-9114371149</li>
+    </ul>
+  </body>
 </html>
